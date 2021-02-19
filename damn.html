@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>location to oder da f</title>
+
+<style>
+    body{
+        background-image: url("file:///C:/Users/hqala/Desktop/codes%20aka%20websites/files/webstie/e/dawds.png");
+        color:white;
+    }
+</style>
+<script>
+    // global variable ectd ijsadkaskdpas[]
+    var result;
+    
+    function showPosition() {
+        // Store the element 
+        result = document.getElementById("result");
+        
+       //try to get views loc without asking
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+            result.innerHTML = "Getting the position information...";
+        } else {
+            alert("Sorry, your browser does not support HTML5 geolocation.");
+        }
+    };
+    
+    //sucsess attenpt 
+    function successCallback(position) {
+        result.innerHTML = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+    }
+    
+    //failed attempt
+    function errorCallback(error) {
+        if(error.code == 1) {
+            result.innerHTML = "unknown error .";
+        } else if(error.code == 2) {
+            result.innerHTML = "network problems.";
+        } else if(error.code == 3) {
+            result.innerHTML = "timeout";
+        } else {
+            result.innerHTML = "unknown error";
+        }
+    }
+</script>
+</head>
+<body>
+    <div id="result">
+    
+    </div>
+    <button type="button" onclick="showPosition();">cljisk hcere</button><br/>
+    <a href="file:///C:/Users/hqala/Desktop/codes%20aka%20websites/files/webstie/e/ekrl.html">clck here 2 go back</a><br/>
+    <br/>
+    <a href="file:///C:/Users/hqala/Desktop/codes%20aka%20websites/files/webstie/e/naw%20page.html">click here to go fawrodd</a>
+</body>
+</html>

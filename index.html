@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>charryous.com</title>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="signin.html">Contact</a>
+            <a href="rex.html">create account</a>
+            <a href="elar.html">login</a>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+          <a href="rex.html"><button class="button"><span>sign up for discounts! </span></button></a>
+<div id="img"><img src="dawds.png" width="1100px" height="300px"></div>
+<br/>
+<br/>
+
+<h1> crunch, have some brunch!</h1>
+    <section id="flexbox">
+<div id="one"><p>
+ <a href="cnecjkout.html">cheese cake
+
+</p><img src="http://www.bakingbeauty.net/wp-content/uploads/2015/10/Pumpkin-Cheesecake-2.jpg" height="205px" width="200px"></a> </div>
+<div id="two"><p>
+  <a href="cnecjkout.html">beef-burger
+</p><img src="https://www.seriouseats.com/images/2014/09/20140929-salmon-burger-yasmin-recipe-7.jpg" height="205" width="200"></a></div>
+<div id="three"><p>
+  <a href="cnecjkout.html">  pizza (tuna extra cheese)
+</p><img src="https://i.ytimg.com/vi/P3GNIuXZ-Yk/maxresdefault.jpg" height="205" width="200"></a></div>
+<div id="four"><p>
+  <a href="cnecjkout.html"> melted choco+ice cream
+</p><img src="https://carnival-news.com/wp-content/uploads/2017/01/CL_Food_ChocMeltingCake.jpg" height="205"width="220px"></a></div>
+</section>
+<br/>
+<br/>
+<br/>
+<h1>spicy foods</h1>
+<section id="flexboxtwo">
+  <div id="oneone"><p>
+    <a href="cnecjkout.html">cooked crab
+  </p><img src="https://huntingchef.files.wordpress.com/2014/01/crab1.jpg" width="200" height="205"></a> </div>
+  <div id="twotwo"><p>
+    <a href="cnecjkout.html"> shrimp dynamite
+
+  </p><img src="https://i.ytimg.com/vi/UCLsOIZsSQ4/maxresdefault.jpg" height="205" width="200"></a></div>
+  <div id="threethree"><p>
+    <a href="cnecjkout.html">lasagna
+  </p><img src="http://www.seriouseats.com/recipes/images/2014/11/20141023-spinach-lasagna-food-lab-01-1500x1125.jpg" width="200" height="205"></a></div>
+  <div id="fourfour"><p>
+    <a href="cnecjkout.html"> grapachinao
+
+  </p><img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/15/16/china-coffee-cup.jpg" width="200" height="205"></a></div>
+</section>
+<section id="flexboxthree">
+  <div> </div>
+  <div> </div>
+  <div> </div>
+  <div> </div>
+</section>
+<style>
+  #flexboxtwo{
+ display: flex;
+  }
+    body{
+   background-color: white;
+   color: black;
+    }
+    #oneone{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #twotwo{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #threethree{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #fourfour{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #inner{
+      border-color: lightgrey;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #one{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+
+    }
+    #two{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #three{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #four{
+      border-color: gray;
+      border-width: 10px;
+      border-style: ridge;
+    }
+    #flexbox{
+      display: inline-flex;
+    }
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*from here on the rest of the page is for dropout*/
+
+
+
+/* Dropup Button */
+.dropbtn {
+  background-color:gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-color: black;
+}
+
+/*from here is dropshit2*/
+
+
+
+/* Dropup Button */
+.dropbtntwo {
+  background-color:gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropuptwo {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-contenttwo {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-contenttwo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-contenttwo a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropuptwo:hover .dropup-contenttwo {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropuptwo:hover .dropbtntwo {
+  background-color: black;
+}
+
+
+/*button*/
+.button {
+  border-radius: 4px;
+  background-color: cyan;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+    </head>
+    <body>
+<br/>
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+    </body>
+</html>
